@@ -1,0 +1,17 @@
+from library import*
+
+def jump_hurdle():
+    if front_is_clear():
+        while front_is_clear():
+            move()
+        if wall_in_front():
+            turn_left()
+            move()
+            turn_right()
+            move()
+            turn_right()
+            move()
+            turn_left()
+            
+            
+jump_hurdle()
