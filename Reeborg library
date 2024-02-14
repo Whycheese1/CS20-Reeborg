@@ -1,0 +1,10 @@
+def turn_around():
+    turn_left()
+    turn_left()
+    
+    
+def turn_right():
+    repeat 3:
+        turn_left()
+        
+        
